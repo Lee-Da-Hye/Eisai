@@ -1,7 +1,4 @@
 /* header */
-/* body{
-    overflow-x: hidden;
-} */
 header{
     width: 100%;
     height: 60px;
@@ -82,13 +79,7 @@ header.scroll{
     color: #333;
     white-space: nowrap;
 }
-.lnb2{
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    position: absolute;
-    background-color: blueviolet;
-}
+
 .lnb-container>ul>li:hover{
     background-color: rgb(149, 186, 244);
     
@@ -100,21 +91,123 @@ header.scroll{
 .lnb > li:hover a{
     color: rgb(179, 31, 184);
 }
+.contact {
+    display: flex;
+    width: 200px;
+}
 .contact a{
-    display: block;
-    width: 120px;
+    display: flex;
+    justify-content: center;
+    width: 145px;
     text-align: center;
-    padding: 5px;
-    border: 1px solid #c5006d;;
-    color: #c5006d;;
-    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #c5006d;
+    color: #c5006d;
+    font-size: 16px;
     font-weight: 900;
-    background: url(../images/main/icon_contactus_on.png) no-repeat 8px 8px;
+    background: url(../images/main/icon_contactus_on.png) no-repeat 10px 14px;
     background-size: 11px;
 }
-.miniMenu{
-    /*padding-right: 55px;*/
+
+
+/* 햄버거버튼 */
+.ham-navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    clip-path: circle(25px at calc( 100% - 45px) 45px);
+    transition: 0.3s ease-in-out;
+    }
+.ham-navigation.active{
+    background-color: #bdd8ed;
+    clip-path: circle(75%);
 }
+.ham-navigation .ham-btn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.ham-navigation .ham-btn span{
+    position: absolute;
+    
+    
+    height: 3px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+.ham-navigation .hamTop{
+    top: 30%;
+    left: 50%;
+    width: 50%;
+}
+.ham-navigation .hamMid{
+    top: 50%;
+    right: 10%;
+    width: 30%;
+}
+.ham-navigation .hamBot{
+    top: 70%;
+    left: 50%;
+    width: 50%;
+}
+.ham-navigation.active .hamTop{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-navigation.active .hamMid{
+    opacity: 0;
+}
+.ham-navigation.active .hamBot{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+.ham-lnb{ 
+    height: 100%;
+    overflow-y: auto;
+    font-size: 18px;
+    line-height: 2;
+    width: 90%;
+    margin: auto;
+    white-space: nowrap;
+}
+.ham-lnb::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+    width: 9px;
+}
+.ham-lnb > li{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 35px;
+    align-items: baseline;
+    
+}
+.ham-lnb > li > a{
+    font-size: 27px;
+    color: #007caa;
+    font-weight: 800;
+}
+.ham-subnav{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ham-lnb a{ 
+    color:#333; 
+    position: relative;
+}
+.lnb2 a {
+    font-size: 14px;
+}
+
 .fadeIn{
     opacity: 0;
 }
@@ -183,25 +276,17 @@ footer{
 }
 .footer-bottom address{
     text-align: left;
-    /* padding-left: 50px; */
 }
-.footer-copyright{
-    /* padding-left: 55px; */
-}
+
 .footer-bottom address,
 .footer-copyright{
     font-size: 12px;
     line-height: 1.6;
 }
 @media screen and (max-width:1101px) {
-    /* .layout-marginAuto{
-        width: 100%;
-    } */
-    .contact{
-        margin-left: auto;
-    }
-    .miniMenu{
-        margin-left: 10px;
+    .inner {
+        padding: 25px;
+        justify-content: space-between;
     }
     .lnb-container{
         display: none;
@@ -275,9 +360,6 @@ footer{
 @media screen and (max-width: 901px) {
 }
 @media screen and (max-width: 480px) {
-    .miniMenu span{
-        padding-right: 10px;
-    }
     .logo img{
         width: 45px;
     }
@@ -306,5 +388,41 @@ footer{
         width: 70px;
         padding-bottom: 20px;
     }
+    .ham-title{
+        display: block;
+    }
+    .ham-subnav{
+        height: 0;
+        overflow: hidden;
+        transition: .4s;
+    }
+
+    .ham-title.active{
+        font-weight: bold;
+    }
+    .ham-subnav.active{
+        height: auto;
+    }
+    .ham-lnb > li{
+        display: block;
+        
+    }
+    .ham-lnb > li > a{
+        font-size: 27px;
+    }
+    .ham-subnav{
+        display: block;
+    }
+    .ham-lnb{ 
+        height: 100%;
+        overflow-y: auto;
+        font-size: 18px;
+        line-height: 2;
+        width: 90%;
+        margin: auto;
+        white-space: nowrap;
+    }
+
+    
     
 }
