@@ -37,27 +37,26 @@ function showNavi() {
 }
 
 //아코디언
-const hamTitles = document.querySelectorAll('.ham-title');
-        console.log(hamTitles);
-        
-        const hamContents = document.querySelectorAll('.ham-lnb .ham-subnav');
-        console.log(hamContents);
-        //nodeList 유사배열, 이터러블하므로 번호를 사용할 수 있다.
 
-        let currentTitle;
-        //클릭된 제목을 제어
-        hamTitles.forEach(function(title, index){
-            title.addEventListener('click', function(event){
-                //이전에 클릭되서 active를 갖고 있는 것을 빼고
-                if(currentTitle){
-                    currentTitle.classList.remove('active');
-                    currentTitle.nextElementSibling.classList.remove('active');
-                }
-                //현재 클릭되서 active를 넣어주기
-                event.target.classList.add('active');
-                event.target.nextElementSibling.classList.add('active');
-                
-                currentTitle = event.target;
-                
-            })
-        })
+  const acTitles = document.querySelectorAll('.ham-title');
+  // const contents = document.querySelectorAll('.content');
+  // const bxs = document.querySelectorAll('.bx');
+
+  acTitles.forEach(function(title, index){
+      title.addEventListener('click', function(){
+          const content = title.nextElementSibling.nextElementSibling; 
+          // console.log(content);
+          content.classList.toggle('active');
+
+          const firstI = title.firstElementChild;
+          // console.log(firstI);
+
+          if( firstI.classList.contains('bx-caret-down')){
+              firstI.classList.remove('bx-caret-down');
+              firstI.classList.add('bx-caret-up');
+          }else{
+              firstI.classList.add('bx-caret-down');
+              firstI.classList.remove('bx-caret-up');
+          }  
+      })
+  })
