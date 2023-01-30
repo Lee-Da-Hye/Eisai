@@ -8,15 +8,31 @@
 
 # 구현 기능
 
-📌 버튼을 누르면 키오스크 메뉴처럼 해당하는 내용으로 넘어감.
+📌 Main
+- section slide 구현
 
-📌 works에 작업물의 이미지를 클릭했을 때 설명과 작업물 링크, github링크가 적혀있어 클릭 시 넘어올 수 있도록 함.
+- 각 section마다 있는 버튼 누를 시 페이지로 넘어감.
 
-📌 한 화면에 2개의 작업물을 넣었고 다음페이지로 넘어갈 수 있도록 페이지네이션 구현
+- 화면이 801px보다 작아지면 휠이 사라짐.
 
-📌 contact : 서버 없는 순수 HTML과 자바스크립트로 메일보내기를 구현 / send를 누르면 등록된 이메일로 메일이 전송됨.
 
-📌 돌아가기 버튼을 눌렀을 때 새로고침 될 수 있도록 함.
+📌hhc
+
+- 화면이 801px보다 작아지면 FadeIn 제거.
+
+- hhc Activity 바로가기 누르면 기업사회혁신 페이지로 넘어감.
+
+
+📌 제품, 회사소식
+
+- grid 활용
+
+
+
+📌 햄버거바 
+
+- 아코디언 형식으로 구현
+
 
 # 링크
 
@@ -24,7 +40,5 @@ https://web-eisai-1b5xkk2fld5o9v4w.gksl2.cloudtype.app/
 
 # 참고사이트
 
-
-- https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server.git
-- https://zzinise.tistory.com/12
+- https://devinus.tistory.com/48?category=983141
 
