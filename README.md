@@ -4,7 +4,7 @@
 
 # 제작 기간
 
--제작 기간 :22.12.07 ~ 23.01.29
+-제작 기간 :22.11.27 ~ 23.01.25
 
 # 구현 기능
 
@@ -20,7 +20,7 @@
 
 # 링크
 
-https://web-kiosk-71psue2glcxbkx5g.gksl2.cloudtype.app/
+https://web-eisai-1b5xkk2fld5o9v4w.gksl2.cloudtype.app/
 
 # 참고사이트
 
