@@ -11,12 +11,14 @@
 📌 Main
 - section slide 구현
 
+- 각 section마다 있는 버튼 누를 시 페이지로 넘어감.
+
 - 화면이 801px보다 작아지면 휠이 사라짐.
 
 
 📌hhc
 
-- 화면이 801px보다 작아지면 FadeIn 제.
+- 화면이 801px보다 작아지면 FadeIn 제거.
 
 - hhc Activity 바로가기 누르면 기업사회혁신 페이지로 넘어감.
 
