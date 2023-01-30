@@ -29,6 +29,7 @@ window.onscroll = function() {
   }
 };
 
+
 //햄버거버튼 
 ham.addEventListener('click', showNavi)
 
@@ -51,12 +52,12 @@ function showNavi() {
           const firstI = title.firstElementChild;
           // console.log(firstI);
 
-          if( firstI.classList.contains('bx-caret-down')){
-              firstI.classList.remove('bx-caret-down');
-              firstI.classList.add('bx-caret-up');
+          if( firstI.classList.contains('bx-chevron-down')){
+              firstI.classList.remove('bx-chevron-down');
+              firstI.classList.add('bx-chevron-up');
           }else{
-              firstI.classList.add('bx-caret-down');
-              firstI.classList.remove('bx-caret-up');
+              firstI.classList.add('bx-chevron-down');
+              firstI.classList.remove('bx-chevron-up');
           }  
       })
   })

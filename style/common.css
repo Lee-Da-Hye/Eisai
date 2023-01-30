@@ -401,7 +401,10 @@ footer{
         white-space: nowrap;
     }
 }
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 801px) {
+    .fadeIn{
+        opacity: 1;
+    }
 }
 @media screen and (max-width: 480px) {
     .logo img{

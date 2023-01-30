@@ -77,3 +77,56 @@ nav.find('a').on('click', function () {
   
   return false;
 });
+
+/*var bw = $("body").width();
+        $(window).resize(function(){
+            bw = $("body").width();
+            console.log(bw);
+        });
+if(bw <= 801) { //화면이 801보다 작을 때.
+  $(window).off('wheel'); 
+}*/
+// let delay = 100;
+// let timer = null;
+// $(window).on('resize', function(){
+// 	clearTimeout(timer);
+// 	timer = setTimeout(function(){
+// 		console.log('resize event!');
+        
+//         if (window.innerWidth >= 800) {
+//           $(window).on('wheel');
+//       		//alert('현재 브라우저 크기가 <= 800px');
+//     	}else if(window.innerWidth <= 800){
+//         console.log('나 801 안')
+        
+//         $(window).off('wheel');
+//       }
+// 	}, delay);
+// });
+var bw = $("body").width();
+        $(window).resize(function(){
+            bw = $("body").width();
+            console.log(bw);
+        });
+function react() {
+  if (bw >= 801) { $(window).on('wheel');}
+  else { $(window).off('wheel');}
+  }
+  react();
+  
+  $(window).resize(
+    function(){
+      react();  
+  /* 사이즈조절시 스크립트가 여러번 다시 적용되다보니 렉이 걸리고 레이아웃도 꺠진다.*/
+  })
+  $(window).resize(function(){document.location.reload();})
+
+  // 리사이즈 끝나고 0.3초마다 리셋
+var delay = 300;
+var timer = null; 
+$(window).on('resize', function(){
+	clearTimeout(timer);
+	timer = setTimeout(function(){
+	document.location.reload();
+	}, delay);
+});
