@@ -74,6 +74,7 @@ input::placeholder{
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+    cursor: pointer;
 }
 .kind-inner{
     position: absolute;

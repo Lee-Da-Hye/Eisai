@@ -78,31 +78,7 @@ nav.find('a').on('click', function () {
   return false;
 });
 
-/*var bw = $("body").width();
-        $(window).resize(function(){
-            bw = $("body").width();
-            console.log(bw);
-        });
-if(bw <= 801) { //화면이 801보다 작을 때.
-  $(window).off('wheel'); 
-}*/
-// let delay = 100;
-// let timer = null;
-// $(window).on('resize', function(){
-// 	clearTimeout(timer);
-// 	timer = setTimeout(function(){
-// 		console.log('resize event!');
-        
-//         if (window.innerWidth >= 800) {
-//           $(window).on('wheel');
-//       		//alert('현재 브라우저 크기가 <= 800px');
-//     	}else if(window.innerWidth <= 800){
-//         console.log('나 801 안')
-        
-//         $(window).off('wheel');
-//       }
-// 	}, delay);
-// });
+// 휠 제거
 var bw = $("body").width();
         $(window).resize(function(){
             bw = $("body").width();
