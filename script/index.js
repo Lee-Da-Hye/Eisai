@@ -88,7 +88,7 @@ function react() {
   if (bw >= 801) { $(window).on('wheel');}
   else { $(window).off('wheel');}
   }
-  //react();
+  react();
   
   $(window).resize(
     function(){
