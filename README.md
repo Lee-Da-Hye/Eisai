@@ -4,7 +4,7 @@
 
 # 제작 기간
 
--제작 기간 :22.11.27 ~ 23.01.25
+제작 기간 :22.11.27 ~ 23.01.25
 
 # 구현 기능
 
@@ -16,11 +16,13 @@
 - 화면이 801px보다 작아지면 휠이 사라짐.
 
 
+
 📌hhc
 
 - 화면이 801px보다 작아지면 FadeIn 제거.
 
 - hhc Activity 바로가기 누르면 기업사회혁신 페이지로 넘어감.
+
 
 
 📌 제품, 회사소식
@@ -29,14 +31,19 @@
 
 
 
+
 📌 햄버거바 
 
 - 아코디언 형식으로 구현
 
 
+
+📌 Clone Page
+
+
 # 링크
 
-https://web-eisai-1b5xkk2fld5o9v4w.gksl2.cloudtype.app/
+https://web-eisai-sop272glding8py.gksl2.cloudtype.app/
 
 # 참고사이트
 
