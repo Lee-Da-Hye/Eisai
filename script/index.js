@@ -110,11 +110,7 @@ var cachedWidth = $(window).width();
     $(window).resize(function(){
         var newWidth = $(window).width();
         if(newWidth !== cachedWidth){
-          function react() {
-            if (bw >= 801) { $(window).on('wheel');}
-            else { $(window).off('wheel');}
-            }
-            react();
+          $(window).off('wheel');
         //새로고침 코드================
         var delay = 300;//resize 종료 후 0.3초마다 새로 고침
         var re_timer = null;
