@@ -95,7 +95,7 @@ function react() {
       react();  
   /* 사이즈조절시 스크립트가 여러번 다시 적용되다보니 렉이 걸리고 레이아웃도 꺠진다.*/
   })
-  $(window).resize(function(){document.location.reload();})
+  //$(window).resize(function(){document.location.reload();})
 
   // 리사이즈 끝나고 0.3초마다 리셋
 var delay = 300;
