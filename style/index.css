@@ -1,3 +1,7 @@
+body{
+    overscroll-behavior: contain;
+}
+
 /* slide */
 .section1{
     background-color: rgba(46, 67, 181, 0.083);
