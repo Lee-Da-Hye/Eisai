@@ -207,7 +207,7 @@ input[id=video2]:checked ~ .video-movie2{
         height: 800px;
     }
     .hhc-activ p:nth-child(2){
-    font-size: 60px;
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 901px) {
