@@ -12,7 +12,9 @@
     padding-top: 20px;
 }
 form{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search-wrap{
     width: 100%;
@@ -21,13 +23,15 @@ form{
     padding-top: 50px;
 }
 select{
-    
     padding-right: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 2px solid #000;
-    height: 35px;
+    height: 30px;
     text-align: center;
+    cursor: pointer;
+    color: #333;
+    
 }
 
 input{
@@ -43,7 +47,6 @@ input{
 input::placeholder{
     font-size: 18px;
     text-align: justify;
-    padding-left: 50px;
 }
 .product-kind-wrap{
     padding-top: 60px;
@@ -235,4 +238,7 @@ input::placeholder{
         grid-template-rows: repeat(6, 200px);
         grid-gap: 20px;
      }
+     form{
+        flex-wrap: wrap;
+    }
 }
