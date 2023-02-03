@@ -79,48 +79,37 @@ nav.find('a').on('click', function () {
 });
 
 // 휠 제거
-let bw = $("body").width();
-    $(window).resize(function(){
-        bw = $("body").width();
-        console.log(bw);
-    });
-function react() {
-  if (bw >= 801) { $(window).on('wheel');}
-  else { $(window).off('wheel');}
-  }
-  react();
-  
-  $(window).resize(
-    function(){
-      react();  
-  })
-  $(window).resize(function(){document.location.reload();})
-
-  // 리사이즈 끝나고 0.3초마다 리셋
-var delay = 300;
-var timer = null; 
-$(window).on('resize', function(){
-	clearTimeout(timer);
-	timer = setTimeout(function(){
-	document.location.reload();
-	}, delay);
-});
 
 var cachedWidth = $(window).width();
     $(window).resize(function(){
-        var newWidth = $(window).width();
-        if(newWidth !== cachedWidth){
-          $(window).off('wheel');
-        //새로고침 코드================
-        var delay = 300;//resize 종료 후 0.3초마다 새로 고침
-        var re_timer = null;
-        $(window).on('resize', function(){
-            clearTimeout(re_timer);
-            re_timer = setTimeout(function(){
-            document.location.reload();
-            }, delay);
+      var newWidth = $(window).width();
+      if(newWidth !== cachedWidth){
+        let bw = $("body").width();
+        $(window).resize(function(){
+            bw = $("body").width();
+            console.log(bw);
         });
-				//===================
-            cachedWidth = newWidth;
-        }
+        function react() {
+          if (bw >= 801) { $(window).on('wheel');}
+          else { $(window).off('wheel');}
+          }
+        react();
+
+        $(window).resize(
+          function(){
+            react();  
+        })
+        $(window).resize(function(){document.location.reload();})
+              //새로고침 코드================
+              var delay = 300;//resize 종료 후 0.3초마다 새로 고침
+              var re_timer = null;
+              $(window).on('resize', function(){
+                  clearTimeout(re_timer);
+                  re_timer = setTimeout(function(){
+                  document.location.reload();
+                  }, delay);
+              });
+              //===================
+                  cachedWidth = newWidth;
+              }
     });
