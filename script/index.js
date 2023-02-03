@@ -1,6 +1,6 @@
 
 //a 이동 x
-const alink = document.querySelectorAll('section a, footer a')
+const alink = document.querySelectorAll('footer a')
         alink.forEach(link =>{
             link.addEventListener('click', function (event){
                 event.preventDefault();
