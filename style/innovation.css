@@ -1,17 +1,21 @@
 .titleImg{
     background-image: url('../images/innovation/sv03.jpg');
 }
+
 .inv-intro{
     text-align: center;
     padding: 15px;
 }
+
 .inv-intro h1{
     font-size: 30px;
 }
+
 .inv-intro p{
     font-size: 14px;
     padding-top: 20px;
 }
+
 .vdo{
     display: flex;
 }
@@ -22,6 +26,7 @@
     padding-top: 100px;
     justify-content: center;
 }
+
 .vdo > div{
     width: 50%;
     box-sizing: border-box;
@@ -36,14 +41,17 @@
 .youtube-video{
     width: 600px;
 }
+
 .iframe-container{
     position: relative;
     width: 100%;
     height: 0;
 }
+
 .iframe16To9{
     padding-top: 56.25%;
 }
+
 /*.iframe4To3{
     padding-top: 75%;
 }*/
@@ -54,16 +62,20 @@
     top: 0;
     left: 0;
 }
+
 .video-desc{
     padding-top: 100px;
     position: relative;
 }
+
 .desc-top{
     padding-bottom: 20px;
 }
+
 .video-desc-inner{
     position: relative;
 }
+
 .video-desc-inner > div:before {
     position: absolute;
     content: '';
@@ -73,60 +85,70 @@
     height: 4px;
     background-image: linear-gradient(to left, #d0328a, #ae4794, #3296ba);
 }
+
 .desc-top{
-    padding-top: 20px;
-    
+    padding-top: 20px; 
 }
+
 .desc-top p:nth-of-type(1){
     font-size: 23px;
     font-weight: 600;
     line-height: 1.7;
 }
+
 .desc-top p:nth-of-type(2){
     padding-top: 10px;
     font-size: 17px;
 }
+
 .desc-bottom{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 20px 30px;
     line-height: 1.7;
-    
 }
+
 .desc-bottom p{
     font-size: 14px;
     word-break: break-word;
 }
+
 .video-sub-desc{
     padding-top: 30px;
 }
+
 .sub-desc-inner > ul{
     display: flex;
     gap: 15px;
 }
+
 .video-subImg{
     width: 100%;
-    
 }
+
 .sub-desc-inner img{
     max-width: 100%;
 }
+
 .sub-desc-inner li{
     width: 309px;
     border-bottom: 1px solid #ccc;
 }
+
 .video-txt{
     padding: 20px 0;
 }
+
 .video-txt p{
     padding-top: 20px;
 }
+
 .pager_wrap{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 150px;
-    
 }
+
 .pager > *{
     margin: 0 5px;
     background-repeat: no-repeat;
@@ -143,14 +165,16 @@
 .prev{
     background-image: url(../images/innovation/pager_prev.png);
 }
+
 .prev:hover,
 .next:hover{
     background-color: #c5006d;
-    
 }
+
 .prev:hover{
     background-image: url(../images/innovation/pager_prev_ov.png);
 }
+
 .current_page{
     font-size: 20px;
     line-height: 38px;
@@ -158,14 +182,16 @@
     color: #c5006d;
     border: 1px solid#c5006d;
     position: relative;
-    
 }
+
 .next{
     background-image: url(../images/innovation/pager_next.png);
 }
+
 .next:hover{
     background-image: url(../images/innovation/pager_next_ov.png);
 }
+
 @media screen and (max-width:1260px) {
     .inv-intro h1{
         font-size: 45px;

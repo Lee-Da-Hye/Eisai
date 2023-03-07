@@ -1,6 +1,7 @@
 .titleImg{
     background-image: url('../images/ecosystem/sv_hed.png');
 }
+
 .section02{
     padding-bottom: 120px;
 }
@@ -9,42 +10,48 @@
     text-align: center;
     padding-bottom: 85px;
 }
+
 .Healthcare > h3{
     font-size: 40px;
     padding-bottom: 35px;
     font-weight: 500;
 }
+
 .healthBr{
     display: none;
 }
+
 .Healthcare p:nth-of-type(1){
     display: inline-block;
     border: 1px solid #000;
     width: 150px;
     height: 1px;
-
 }
+
 .Health-contents{
     text-align: center;
     line-height: 1.8;
     white-space: pre-line;
     padding: 15px;
-
 }
+
 .Health-contents > li{
     text-align: center;
 }
+
 .Health-contents > li:nth-child(1){
     font-size: 25px;
 }
+
 .Health-contents > li{
     font-weight: 300;
     font-size: 17px;
-
 }
+
 .Health-contents >  li:nth-of-type(6){
     font-weight: 800;
 }
+
 .section03{
     background-color: #f3fcff;;
     width: 100%;
@@ -56,9 +63,11 @@
     width: 100%;
     object-fit: cover;
 }
+
 .diagramImg > .m{
     display: none;
 }
+
 .diagram-contents > p{
     text-align: center;
     font-size: 30px;
@@ -66,18 +75,22 @@
     padding-bottom: 30px;
     padding-top: 40px;
 }
+
 .section04{
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 .hed_advan > ul{
     display: flex;
 }
+
 .hed_advan > ul > li{
     width: 33.3333%;
     padding: 0 27.5px;
     box-sizing: border-box;
 }
+
 .icon-wrap{
     background-color: #C6006D;
     border-radius: 50%;
@@ -95,12 +108,14 @@
     margin: 20px 0;
     font-weight: 600;
 }
+
 .hed_advan > ul > li > p {
     text-align: justify;
     padding: 10px;
     line-height: 1.8;
     color: #8c8c8c;
 }
+
 @media screen and (max-width: 1100px) {
     .section03{
         background-color: #f3fcff;;

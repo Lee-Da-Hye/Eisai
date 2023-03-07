@@ -8,6 +8,7 @@ body{
     padding-top: 50px;
     height: 100vh;
 }
+
 .slide {
     /* layout */
     display: flex;
@@ -17,6 +18,7 @@ body{
     width: 100%;
     user-select: none;
 }
+
 .slide_item {
     /* layout */
     display: flex;
@@ -31,25 +33,30 @@ body{
     transition: left 0.15s;
     overflow: hidden;
 }
+
 .content-inner{
     width: 100%;
     height: 100vh;
 }
+
 .content-inner > img{
     width: 100%;
     height: 100%;
 }
+
 .content{
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 9;
 }
+
 .content-inner h1{
     font-size: 40px;
     color: #fff;
     font-weight: 400;
 }
+
 .content-inner p{
     font-size: 14px;
     color: #fff;
@@ -57,6 +64,7 @@ body{
     padding-top: 20px;
     
 }
+
 .slide_pagination{
     color: #fff;
     position: absolute;
@@ -65,15 +73,18 @@ body{
     display: flex;
     gap: 10px;
 }
+
 .slide_pagination > li{
     width: 10px;
     height: 10px;
     background-color: #fff;
     border-radius: 50%;
 }
+
 .slide_pagination > li.active{
     background-color: red;
 }
+
 aside{
     position: fixed; 
     right: 30px;
@@ -85,10 +96,12 @@ aside{
     padding: 24px 0;
     box-shadow: 5px 5px 5px rgba(143, 138, 138, 0.769); 
 }
+
 aside ul{
     color:#000;
     text-align: center;
 }
+
 aside li a{
     display: block;
     width: 10px;
@@ -99,36 +112,44 @@ aside li a{
     transition: 0.3s;
     cursor: pointer;
 }
+
 aside li a.active{
     background-color: red;
 }
+
 .section01{
     position: relative;
     width: 100%;
     height: 100vh;
 }
+
 .section02{
     background-color: #fff;
     width: 100%;
     height: 100vh;
     position: relative;
 }
+
 .sec02-inner{
     text-align: center;
 }
+
 .sec02 h1{
     padding-top: 50px;
     font-size: 5em;
     font-weight: 500;
     color: #007caa;
 }
+
 .sec02 p:nth-of-type(1){
     padding-top: 30px;
     line-height: 1.5;
 }
+
 .sec02 p:nth-of-type(2){
     padding-top: 60px;
 }
+
 .sec02 p:nth-of-type(2) a{
    border: 1px solid #007caa;
    display: inline-block;
@@ -139,33 +160,39 @@ aside li a.active{
    font-weight: 600;
    color: #007caa;
 }
+
 .sec02-img img{
     width: 100%;
     padding-top: 40px;
 }
+
 .section03{
     width: 100%;
     background-color: #c6006d;
     height: 100vh;
-    
 }
+
 .sec03-inner{
     display: flex;
 }
+
 .sec03-inner1{
     width: calc(100% / 2);
     padding: 200px 120px;
     color: #fff;
 }
+
 .sec03-inner1 h3{
     font-size: 45px;
     padding-bottom: 30px;
     font-weight: 500;
 }
+
 .sec03-inner1 p:nth-of-type(1){
     line-height: 1.6;
     padding-bottom: 60px;
 }
+
 .sec03-inner1 p:nth-of-type(2) a{
     display: inline-block;
     width: 150px;
@@ -173,6 +200,7 @@ aside li a.active{
     border: 1px solid #fff;
     text-align: center;
 }
+
 .sec03-img{
     height: 100vh;
     background-image: url('../images/main/mc3_1.jpg');
@@ -182,6 +210,7 @@ aside li a.active{
     width: calc(100% / 2);
     /*border: 1px solid #000;*/
 }
+
 .section04{
     width: 100%;
     background-image: url('../images/main/mc3_bg.jpg');
@@ -190,6 +219,7 @@ aside li a.active{
     background-size: cover;
     height: 100vh;
 }
+
 .sec04-inner{
     color: #fff;
     display: flex;
@@ -198,14 +228,17 @@ aside li a.active{
     align-items: center;
     height: 80vh;
 }
+
 .sec04-inner h3{
     font-size: 55px;
     font-weight: 500;
     padding-bottom: 30px;
 }
+
 .sec04-inner p:nth-of-type(1){
     padding-bottom: 80px;
 }
+
 .sec04-inner p:nth-of-type(2) a{
     display: inline-block;
     border: 1px solid #fff;
@@ -216,46 +249,54 @@ aside li a.active{
     background-color: #fff;
     font-size: 14px;
     font-weight: 600;
-
 }
+
 .section05{
     width: 100%;
     background-color: #fff;
-    height: 100vh;
-    
+    height: 100vh; 
 }
+
 .sec05-inner{
     display: flex;
 }
+
 .sec05-inner1{
     width: calc(100% / 2);
 }
+
 .article strong {
     font-size: 20px;
     display: inline-block;
     padding-top: 30px;
 }
+
 .article p{
     padding-left: 10px;
     font-size: 14px;
     padding: 20px 0 20px 10px;
 }
+
 .article small{
     color: rgb(137, 134, 134);
 }
+
 .sec05-more{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     font-size: 14px;
 }
+
 .sec05-more span:nth-of-type(1){
     color: #e586b3;
     font-weight: 600;
 }
+
 .sec05-more span:nth-of-type(2){
     color: rgb(137, 134, 134);
 }
+
 .sec05-img{
     width: calc(100% / 2);
     height: 100vh;
@@ -265,11 +306,13 @@ aside li a.active{
     background-size: cover;
     padding: 80px;
 }
+
 .sec05-img p:nth-child(1){
     font-weight: 300;
     font-size: 45px;
     padding-bottom: 30px;
 }
+
 .sec05-img p:nth-child(2){
     font-weight: 400;
 }
