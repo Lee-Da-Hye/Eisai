@@ -1,6 +1,6 @@
 <?php
     $title = '한국에자이';
-    include_once('inc/header.html');
+    include_once('inc/header.php');
 ?>
     <div class="main">
         <section class="section01" id="section01">
@@ -113,7 +113,7 @@
     <script src="./script/slide.js"></script>
     
     <?php
-    include('inc/footer.html');
+    include('inc/footer.php');
     ?>
 </body>
 </html>
