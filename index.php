@@ -6,7 +6,7 @@
 <meta charset="UTF-8" />
 
 <!-- Global CSS -->
-<link href="./src/default.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="./src/reset.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <link href="./src/layout-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
 <link href="./src/layout-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
 <!-- /Global CSS -->
@@ -29,15 +29,13 @@
 </head>
 <body>
 <!-- 상단 영역 -->
-<div class="header-wrapper">
-<?php include "./_include/header.php" ?>
-</div>
+<header id="navBar">
+<?php include "./inc/header.php" ?>
+</header>
 <!-- /상단 영역 -->
 <!-- 콘텐츠 영역 -->
-<header id="navBar">
-<?php include "./_inc/header.php" ?>
-</header>
-<div class="main-wrapper">
+
+<!-- <div class="main-wrapper">
     <div class="main">
         <?php
         if(isset($_GET['sub'])) {
@@ -47,11 +45,11 @@
         }
         ?>
     </div>
-</div>
+</div> -->
 <!--/콘텐츠 영역-->
 <!--하단 영역-->
 <footer>
-<?php include "./_inc/footer.php" ?>
+<?php include "./inc/footer.php" ?>
 </footer>
 <!--/하단 영역-->
 
