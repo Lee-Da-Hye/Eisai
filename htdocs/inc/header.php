@@ -23,6 +23,7 @@
             <div class="inner">
                 <div class="logo">
                     <h1><?=$title;?>
+                    
                         <a href="/?sub=index">
                             <img class="logoColor" src="./images/common/logo.png" alt="logo">
                             <img class="logoWhite" src="./images/common/logo_white.png" alt="logo">
