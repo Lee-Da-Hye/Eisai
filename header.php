@@ -23,7 +23,7 @@
             <div class="inner">
                 <div class="logo">
                     <h1><?=$title;?>
-                        <a href="./sub/index.php">
+                        <a href="sub\index.php">
                             <img class="logoColor" src="./images/common/logo.png" alt="logo">
                             <img class="logoWhite" src="./images/common/logo_white.png" alt="logo">
                         </a>
@@ -31,15 +31,15 @@
                 </div>
                 <nav class="lnb-container">
                     <ul>
-                        <li><a href="./sub/what_hhc.php">hhc</a>
+                        <li><a href="sub\what_hhc.php">hhc</a>
                             <ul class="lnb">
-                                <li><a href="./sub/what_hhc.php">what is hhc?</a></li>
+                                <li><a href="sub\what_hhc.php">what is hhc?</a></li>
                                 <li><a href="#">hhc Driven Innovation</a></li>
                             </ul>
                         </li>
-                        <li><a href="./sub/product.php">제품</a>
+                        <li><a href="sub\product.php">제품</a>
                             <ul class="lnb">
-                                <li><a href="./sub/product.php">한국에자이 제품</a></li>
+                                <li><a href="sub\product.php">한국에자이 제품</a></li>
                                 <li><a href="#">치매증상 치료제</a>
                                 </li>
                                 <li><a href="">뇌전증 치료제</a>
@@ -58,14 +58,14 @@
                             </ul>
                         </li>
                         <li><a href="#">채용</a></li>
-                        <li><a href="./sub/innovation.php">기업사회혁신</a>
+                        <li><a href="sub\innovation.php">기업사회혁신</a>
                             <ul class="lnb">
                                 <li><a href="#">hhc Activity</a></li>
                                 <li><a href="#">hhc Solution</a></li>
                                 <li><a href="#">나를 있게 하는 우리</a></li>
                             </ul>
                         </li>
-                        <li><a href="./sub/company_introduction.php">회사소개</a>
+                        <li><a href="sub\company_introduction.php">회사소개</a>
                             <ul class="lnb">
                                 <li><a href="#">Message from Top Management</a></li>
                                 <li><a href="#">Corporate Vision</a></li>
@@ -75,9 +75,9 @@
                                 <li><a href="#">News</a></li>
                             </ul>
                         </li>
-                        <li><a href="./sub/ecosystem.php">Ecosystem</a>
+                        <li><a href="sub\ecosystem.php">Ecosystem</a>
                             <ul class="lnb">
-                                <li><a href="./sub/ecosystem.php">What is HED?</a></li>
+                                <li><a href="sub\ecosystem.php">What is HED?</a></li>
                                 <li><a href="#">Press Release</a></li>
                                 <li><a href="#">Partnership Proposal</a></li>
                             </ul>
@@ -98,10 +98,10 @@
                             <span class="ham-title">
                                 hhc<i class='bx bx-chevron-down'></i>
                             </span>
-                            <a href="./what_hhc.html">hhc
+                            <a href="sub\what_hhc.php">hhc
                             </a>
                             <ul class="ham-subnav">
-                                <li><a href="./what_hhc.html">what is hhc?</a></li>
+                                <li><a href="sub\what_hhc.php">what is hhc?</a></li>
                                 <li><a href="#">hhc Driven Innovation</a></li>
                             </ul>
                         </li>
@@ -109,10 +109,10 @@
                             <span class="ham-title">
                                 제품<i class='bx bx-chevron-down'></i>
                             </span>
-                            <a href="./product.html">제품
+                            <a href="sub\product.php">제품
                             </a>
                             <ul class="ham-subnav">
-                                <li><a href="./product.html">한국에자이 제품</a></li>
+                                <li><a href="sub\product.php">한국에자이 제품</a></li>
                                 <li><a href="#">치매증상 치료제</a>
                                     <ul class="lnb2">
                                         <li><a href="#">- 아리셉트</a></li>
@@ -170,10 +170,10 @@
                             <span class="ham-title">
                                 기업사회혁신<i class='bx bx-chevron-down'></i>
                             </span>
-                            <a href="./innovation.html">기업사회혁신
+                            <a href="sub\innovation.php">기업사회혁신
                             </a>
                             <ul class="ham-subnav">
-                                <li><a href="./innovation.html">hhc Activity</a></li>
+                                <li><a href="sub\innovation.php">hhc Activity</a></li>
                                 <li><a href="#">hhc Solution</a></li>
                                 <li><a href="#">나를 있게 하는 우리</a></li>
                             </ul>
@@ -182,10 +182,10 @@
                             <span class="ham-title">
                                 회사소개<i class='bx bx-chevron-down'></i>
                             </span>
-                            <a href="./company_introduction.html">회사소개
+                            <a href="sub\company_introduction.php">회사소개
                             </a>
                             <ul class="ham-subnav">
-                                <li><a href="./company_introduction.html">Message from Top Management</a></li>
+                                <li><a href="sub\company_introduction.php">Message from Top Management</a></li>
                                 <li><a href="#">Corporate Vision</a></li>
                                 <li><a href="#">즐거운 우리 일터</a></li>
                                 <li><a href="#">일하기 좋은 회사</a></li>
@@ -197,10 +197,10 @@
                             <span class="ham-title">
                                 Ecosystem<i class='bx bx-chevron-down'></i>
                             </span>
-                            <a href="./ecosystem.html">Ecosystem
+                            <a href="sub\ecosystem.php">Ecosystem
                             </a>
                             <ul class="ham-subnav">
-                                <li><a href="./ecosystem.html">What is HED?</a></li>
+                                <li><a href="sub\ecosystem.php">What is HED?</a></li>
                                 <li><a href="#">Press Release</a></li>
                                 <li><a href="#">Partnership Proposal</a></li>
                             </ul>
