@@ -22,8 +22,8 @@
         <div class="gnb layout-marginAuto">
             <div class="inner">
                 <div class="logo">
-                    <h1>한국에자이
-                        <a href="./index.html">
+                    <h1><?=$title;?>
+                        <a href="./sub/index.php">
                             <img class="logoColor" src="./images/common/logo.png" alt="logo">
                             <img class="logoWhite" src="./images/common/logo_white.png" alt="logo">
                         </a>
@@ -31,15 +31,15 @@
                 </div>
                 <nav class="lnb-container">
                     <ul>
-                        <li><a href="./what_hhc.html">hhc</a>
+                        <li><a href="./sub/what_hhc.php">hhc</a>
                             <ul class="lnb">
-                                <li><a href="./what_hhc.html">what is hhc?</a></li>
+                                <li><a href="./sub/what_hhc.php">what is hhc?</a></li>
                                 <li><a href="#">hhc Driven Innovation</a></li>
                             </ul>
                         </li>
-                        <li><a href="./product.html">제품</a>
+                        <li><a href="./sub/product.php">제품</a>
                             <ul class="lnb">
-                                <li><a href="./product.html">한국에자이 제품</a></li>
+                                <li><a href="./sub/product.php">한국에자이 제품</a></li>
                                 <li><a href="#">치매증상 치료제</a>
                                 </li>
                                 <li><a href="">뇌전증 치료제</a>
@@ -58,14 +58,14 @@
                             </ul>
                         </li>
                         <li><a href="#">채용</a></li>
-                        <li><a href="./innovation.html">기업사회혁신</a>
+                        <li><a href="./sub/innovation.php">기업사회혁신</a>
                             <ul class="lnb">
                                 <li><a href="#">hhc Activity</a></li>
                                 <li><a href="#">hhc Solution</a></li>
                                 <li><a href="#">나를 있게 하는 우리</a></li>
                             </ul>
                         </li>
-                        <li><a href="./company_introduction.html">회사소개</a>
+                        <li><a href="./sub/company_introduction.php">회사소개</a>
                             <ul class="lnb">
                                 <li><a href="#">Message from Top Management</a></li>
                                 <li><a href="#">Corporate Vision</a></li>
@@ -75,9 +75,9 @@
                                 <li><a href="#">News</a></li>
                             </ul>
                         </li>
-                        <li><a href="./ecosystem.html">Ecosystem</a>
+                        <li><a href="./sub/ecosystem.php">Ecosystem</a>
                             <ul class="lnb">
-                                <li><a href="./ecosystem.html">What is HED?</a></li>
+                                <li><a href="./sub/ecosystem.php">What is HED?</a></li>
                                 <li><a href="#">Press Release</a></li>
                                 <li><a href="#">Partnership Proposal</a></li>
                             </ul>
