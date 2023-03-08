@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>한국에자이</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+<meta charset="UTF-8" />
+
+<!-- Global CSS -->
+<link href="./src/default.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="./src/layout-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
+<link href="./src/layout-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
+<!-- /Global CSS -->
+<?php if (isset($_GET['sub'])) {?>
+<link href="./src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="./src/<?=$_GET['sub']?>-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
+<link href="./src/<?=$_GET['sub']?>-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
+<?php } else { ?>
+<link href="./src/main.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="./src/main-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
+<link href="./src/main-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
+<?php }?>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="shortcut icon" href="./images/common/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="./images/common/apple-icon-57x57.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="/src/default.js?<?=time()?>"></script>
+</head>
+<body>
+<!-- 상단 영역 -->
+<div class="header-wrapper">
+<?php include "./_include/header.php" ?>
+</div>
+<!-- /상단 영역 -->
+<!-- 콘텐츠 영역 -->
+<header id="navBar">
+<?php include "./_inc/header.php" ?>
+</header>
+<div class="main-wrapper">
+    <div class="main">
+        <?php
+        if(isset($_GET['sub'])) {
+            include "./sub/{$_GET['sub']}.php";
+        } else {
+            include "./main.php";
+        }
+        ?>
+    </div>
+</div>
+<!--/콘텐츠 영역-->
+<!--하단 영역-->
+<footer>
+<?php include "./_inc/footer.php" ?>
+</footer>
+<!--/하단 영역-->
+
+<script src="./script/jquery-3.6.1.js"></script>
+<script src="./script/jquery-ui.js"></script>
+<script src="./script/common.js"></script>
+<script src="./script/fadeIn.js"></script>
