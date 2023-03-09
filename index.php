@@ -12,12 +12,9 @@
 <!-- /Global CSS -->
 <?php if (isset($_GET['sub'])) {?>
 <link href="./src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/<?=$_GET['sub']?>-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
-<link href="./src/<?=$_GET['sub']?>-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
+<link href="./src/<?=$_GET['sub']?>.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
 <?php } else { ?>
 <link href="./src/main.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/main-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
-<link href="./src/main-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
 <?php }?>
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link rel="shortcut icon" href="./images/common/apple-icon-57x57.png">
@@ -25,7 +22,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="/src/default.js?<?=time()?>"></script>
+<script type="text/javascript" src="/src/common.js?<?=time()?>"></script>
 </head>
 <body>
 <!-- 상단 영역 -->
@@ -35,17 +32,17 @@
 <!-- /상단 영역 -->
 <!-- 콘텐츠 영역 -->
 
-<!-- <div class="main-wrapper">
+<main>
     <div class="main">
         <?php
         if(isset($_GET['sub'])) {
             include "./sub/{$_GET['sub']}.php";
         } else {
-            include "./index.php";
+            include "./main.php";
         }
         ?>
     </div>
-</div> -->
+</main>
 <!--/콘텐츠 영역-->
 <!--하단 영역-->
 <footer>
