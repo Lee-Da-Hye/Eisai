@@ -105,7 +105,3 @@
     </aside>
 
     <script type="text/javascript" src="/src/main.js?<?=time()?>"></script>
-    
-    <?php
-    include('inc/footer.php');
-    ?>
