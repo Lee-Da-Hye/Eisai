@@ -27,7 +27,7 @@
 <body>
 <!-- 상단 영역 -->
 <header id="navBar">
-<?php include "inc/header.php" ?>
+<?php include "./htdocs/inc/header.php" ?>
 </header>
 <!-- /상단 영역 -->
 <!-- 콘텐츠 영역 -->
@@ -46,7 +46,7 @@
 <!--/콘텐츠 영역-->
 <!--하단 영역-->
 <footer>
-<?php include "inc/footer.php" ?>
+<?php include "./htdocs/inc/footer.php" ?>
 </footer>
 <!--/하단 영역-->
 
