@@ -109,12 +109,12 @@ video{
     height: 130px;
     border: 1px solid #fff;
     background-color: #000;
-    background-image: url('../images/hhc/list2.png');
+    background-image: url('/htdocs/images/hhc/list2.png');
     background-position: center center;
     background-size: cover;
 }
 .video-btn label:nth-child(2){
-    background-image: url('../images/hhc/list.png');
+    background-image: url('/htdocs/images/hhc/list.png');
 }
 
 input[id=video1]:checked ~ .btn label[for=video1],
