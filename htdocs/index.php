@@ -37,7 +37,7 @@
     <div class="main">
         <?php
         if(isset($_GET['sub'])) {
-            include "./sub/{$_GET['sub']}.php";
+            include "/htdocs/sub/{$_GET['sub']}.php";
         } else {
             include "./main.php";
         }

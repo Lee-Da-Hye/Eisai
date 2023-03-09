@@ -10,7 +10,7 @@
     <section class="section02 layout-marginAuto">
         <div class="location">
             <ul class="location-contents fadeIn">
-                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/?sub=main"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>hhc</li>
                 <li>what is hhc?</li>
             </ul>
