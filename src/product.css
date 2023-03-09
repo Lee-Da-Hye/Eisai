@@ -46,7 +46,7 @@ input{
     border-bottom: 2px solid #000;
     width: 500px;
     height: 30px;
-    background-image: url(../images/product/icon_search.png);
+    background-image: url(/htdocs/images/product/icon_search.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -196,7 +196,7 @@ input::placeholder{
 }
 
 .box{
-    background-image: url(../images/product/btn_more.png);
+    background-image: url(/htdocs/images/product/btn_more.png);
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 30px;
