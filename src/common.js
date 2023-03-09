@@ -29,4 +29,36 @@ window.onscroll = function() {
     hamSpan[2].style.backgroundColor = 'white';
   }
 };
+
+//햄버거버튼 
+ham.addEventListener('click', showNavi)
+
+function showNavi() {
+    document.querySelector('.ham-navigation').classList.toggle('active');
+}
+
+//아코디언
+
+  const acTitles = document.querySelectorAll('.ham-title');
+  // const contents = document.querySelectorAll('.content');
+  // const bxs = document.querySelectorAll('.bx');
+
+  acTitles.forEach(function(title, index){
+      title.addEventListener('click', function(){
+          const content = title.nextElementSibling.nextElementSibling; 
+          // console.log(content);
+          content.classList.toggle('active');
+
+          const firstI = title.firstElementChild;
+          // console.log(firstI);
+
+          if( firstI.classList.contains('bx-chevron-down')){
+              firstI.classList.remove('bx-chevron-down');
+              firstI.classList.add('bx-chevron-up');
+          }else{
+              firstI.classList.add('bx-chevron-down');
+              firstI.classList.remove('bx-chevron-up');
+          }  
+      })
+  })
 });
