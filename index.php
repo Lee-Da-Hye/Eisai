@@ -28,7 +28,7 @@
 <body>
 <!-- 상단 영역 -->
 <header id="navBar">
-<?php include "./htdocs/inc/header.php" ?>
+<?php include "/inc/header.php" ?>
 </header>
 <!-- /상단 영역 -->
 <!-- 콘텐츠 영역 -->
@@ -37,7 +37,7 @@
     <div class="main">
         <?php
         if(isset($_GET['sub'])) {
-            include "/htdocs/sub/{$_GET['sub']}.php";
+            include "./sub/{$_GET['sub']}.php";
         } else {
             include "./main.php";
         }
@@ -47,7 +47,7 @@
 <!--/콘텐츠 영역-->
 <!--하단 영역-->
 <footer>
-<?php include "./htdocs/inc/footer.php" ?>
+<?php include "/inc/footer.php" ?>
 </footer>
 <!--/하단 영역-->
 </body>
