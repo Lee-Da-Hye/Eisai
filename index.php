@@ -6,12 +6,12 @@
 <meta charset="UTF-8" />
 
 <!-- Global CSS -->
-<link href="./src/reset.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/common.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="/src/reset.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="/src/common.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <!-- /Global CSS -->
 <?php if (isset($_GET['sub'])) {?>
-<link href="./src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/<?=$_GET['sub']?>.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="/src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
+<link href="/src/<?=$_GET['sub']?>.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <?php } else { ?>
 <link href="./src/main.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <?php }?>
