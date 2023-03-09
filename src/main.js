@@ -84,12 +84,11 @@ var cachedWidth = $(window).width();
       var newWidth = $(window).width();
       if(newWidth !== cachedWidth){
         let bw = $("body").width();
-        $(window).resize(function(){
-            bw = $("body").width();
-            console.log(bw);
-        });
+        // $(window).resize(function(){
+        //     bw = $("body").width();
+        //     console.log(bw);
+        // });
         function react() {
-          bw = $("body").width();
           if (bw >= 801) { $(window).on('wheel');}
           else { $(window).off('wheel');}
           }
