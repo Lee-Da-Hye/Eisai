@@ -79,7 +79,7 @@ nav.find('a').on('click', function () {
 });
 
 // 휠 제거
-
+$(document).ready(function() {
 var cachedWidth = $(window).width();
     $(window).resize(function(){
       var newWidth = $(window).width();
@@ -113,7 +113,7 @@ var cachedWidth = $(window).width();
                   cachedWidth = newWidth;
               }
     });
-
+  });
 
     /*slide*/
     //slide

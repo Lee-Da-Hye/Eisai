@@ -16,8 +16,8 @@ window.onscroll = function() {
     navBar.style.backgroundColor = 'white';
     logoImg2.style.display = 'block';
     logoImg1.style.display = 'none';
-    hamSpan.forEach((a,i)=>{
-      hamSpan[i].style.backgroundColor = 'black';
+    hamSpan.forEach((ham,i)=>{
+      ham[i].style.backgroundColor = 'black';
     })
 
   } else {
@@ -25,8 +25,8 @@ window.onscroll = function() {
     navBar.style.backgroundColor = 'transparent';
     logoImg1.style.display = 'block';
     logoImg2.style.display = 'none';
-    hamSpan.forEach((a,i)=>{
-      hamSpan[i].style.backgroundColor = 'white';
+    hamSpan.forEach((ham,i)=>{
+      ham[i].style.backgroundColor = 'white';
     })
   }
 };
