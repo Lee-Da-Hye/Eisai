@@ -1,5 +1,4 @@
 
-        <div id="navBar" class="header-wrap">
             <div class="gnb layout-marginAuto">
                 <div class="inner">
                     <div class="logo">
@@ -191,4 +190,3 @@
                 </nav>
                 </div>
             </div>
-        </div>

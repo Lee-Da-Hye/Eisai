@@ -23,11 +23,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="/src/fadeIn.js?<?=time()?>"></script>
-<script type="text/javascript" src="/src/common.js?<?=time()?>"></script>
 </head>
 <body>
 <!-- 상단 영역 -->
-<header>
+<header id="navBar">
 <?php
     include('inc/header.php');
     ?>
@@ -52,5 +51,6 @@
     ?>
 </footer>
 <!--/하단 영역-->
+<script type="text/javascript" src="/src/common.js?<?=time()?>"></script>
 </body>
 </html>
