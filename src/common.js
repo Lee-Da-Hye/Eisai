@@ -16,17 +16,18 @@ window.onscroll = function() {
     navBar.style.backgroundColor = 'white';
     logoImg2.style.display = 'block';
     logoImg1.style.display = 'none';
-    hamSpan[0].style.backgroundColor = 'black';
-    hamSpan[1].style.backgroundColor = 'black';
-    hamSpan[2].style.backgroundColor = 'black';
+    hamSpan.forEach((a,i)=>{
+      hamSpan[i].style.backgroundColor = 'black';
+    })
+
   } else {
     navBar.classList.remove('scroll');
     navBar.style.backgroundColor = 'transparent';
     logoImg1.style.display = 'block';
     logoImg2.style.display = 'none';
-    hamSpan[0].style.backgroundColor = 'white';
-    hamSpan[1].style.backgroundColor = 'white';
-    hamSpan[2].style.backgroundColor = 'white';
+    hamSpan.forEach((a,i)=>{
+      hamSpan[i].style.backgroundColor = 'white';
+    })
   }
 };
 
