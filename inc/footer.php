@@ -1,4 +1,4 @@
-<footer>
+
     <div class="footer-top layout-marginAuto">
         <ul class="footer-menu ">
             <li>
@@ -46,4 +46,3 @@
             </div>
         </div>
     </div>
-</footer>

@@ -36,7 +36,6 @@
 <!-- 콘텐츠 영역 -->
 
 <main>
-    <div class="main">
         <?php
         if(isset($_GET['sub'])) {
             include "./sub/{$_GET['sub']}.php";
@@ -44,7 +43,6 @@
             include "./main.php";
         }
         ?>
-    </div>
 </main>
 <!--/콘텐츠 영역-->
 <!--하단 영역-->
