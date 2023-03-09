@@ -28,7 +28,7 @@
                     <div class="sec02-inner ">
                         <h1>Think Patients First</h1>
                         <p>Eisai는 전문의약품에서 일반의약품에 이르기까지 끊임없는 연구개발을 통해 <br>인간에게 희망을 심어 주는 좋은약 만들기에 앞장서고 있습니다.</p>
-                        <p><a href="./product.html">제품소개 바로가기</a></p>
+                        <p><a href="/?sub=product">제품소개 바로가기</a></p>
                         <div class="sec02-img">
                             <img src="/htdocs/images/main/mc2_img.png" alt="제품이미지">
                         </div>
@@ -40,7 +40,7 @@
                     <div class="sec03-inner1">
                         <h3>human health care</h3>
                         <p>한국에자이는 가치있는 의약품과 서비스의 제공을 통해 인류의 건강한 삶에 이바지합니다.</p>
-                        <p><a href="./what_hhc.html">view more</a></p>
+                        <p><a href="/?sub=what_hhc">view more</a></p>
                     </div>
                     <div class="sec03-img"></div>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="sec04-inner layout-marginAuto">
                     <h3>Innovation For the Better Life</h3>
                     <p>환자와 가족들을 최우선적으로 생각하면서 헬스케어 분야에서 사회적 가치를 창출합니다.</p>
-                    <p><a href="./innovation.html">기업사회 혁신 바로가기</a></p>
+                    <p><a href="/?sub=innovation">기업사회 혁신 바로가기</a></p>
                 </div>
             </section>
             <section class="section05 fadeIn" id="section05">
@@ -105,3 +105,4 @@
     </aside>
 
     <script type="text/javascript" src="/src/main.js?<?=time()?>"></script>
+    <script type="text/javascript" src="/src/common.js?<?=time()?>"></script>

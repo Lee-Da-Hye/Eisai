@@ -4,7 +4,7 @@
                 <div class="logo">
                     <h1><?=$title;?>
                     
-                        <a href="/?sub=main.php">
+                        <a href="/?sub=main">
                             <img class="logoColor" src="/htdocs/images/common/logo.png" alt="logo">
                             <img class="logoWhite" src="/htdocs/images/common/logo_white.png" alt="logo">
                         </a>
