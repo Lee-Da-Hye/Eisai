@@ -1,4 +1,4 @@
-$window.on('scroll', ()=>{
+$(window).on('scroll', ()=>{
   let navbar = $('#navbar');
   console.log(navbar);
   if(window.scrollY > 600){
