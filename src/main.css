@@ -203,7 +203,7 @@ aside li a.active{
 
 .sec03-img{
     height: 100vh;
-    background-image: url('../images/main/mc3_1.jpg');
+    background-image: url('/htdocs/images/main/mc3_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,7 +213,7 @@ aside li a.active{
 
 .section04{
     width: 100%;
-    background-image: url('../images/main/mc3_bg.jpg');
+    background-image: url('/htdocs/images/main//mc3_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ aside li a.active{
 .sec05-img{
     width: calc(100% / 2);
     height: 100vh;
-    background-image: url('../images/main/mc_board_bg.png');
+    background-image: url('/htdocs/images/main/mc_board_bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -7,8 +7,7 @@
 
 <!-- Global CSS -->
 <link href="./src/reset.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/layout-narrow.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
-<link href="./src/layout-wide.css?<?=time()?>" media="screen and (min-width: 901px)" type="text/css" rel="stylesheet" />
+<link href="./src/common.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <!-- /Global CSS -->
 <?php if (isset($_GET['sub'])) {?>
 <link href="./src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
