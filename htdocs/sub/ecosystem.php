@@ -1,7 +1,3 @@
-<?php
-    $title = '한국에자이';
-    include_once('inc/header.php');
-?>
     <section class="section01 ">
         <div class="titleImg ">
             <div class="title-contents layout-marginAuto">
@@ -12,7 +8,7 @@
     <section class="section02 layout-marginAuto">
         <div class="location">
             <ul class="location-contents fadeIn">
-                <li><a href="./index.html"><img src="./images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>Healthcare Ecosystem Design</li>
                 <li>What is HED?</li>
             </ul>
@@ -53,8 +49,8 @@
             <p>Diagram of Business Ecosystem</p>
         </div>
         <div class="diagramImg">
-            <img class="pc" src="./images/ecosystem/hed_diagram.png" alt="pc-diagram">
-            <img class="m" src="./images/ecosystem/hed_diagram_m.png" alt="mobile-diagram">
+            <img class="pc" src="/htdocs/images/ecosystem/hed_diagram.png" alt="pc-diagram">
+            <img class="m" src="/htdocs/images/ecosystem/hed_diagram_m.png" alt="mobile-diagram">
         </div>
     </section>
     <section class="section04 layout-marginAuto">
@@ -62,7 +58,7 @@
             <ul>
                 <li>
                     <div class="icon-wrap">
-                        <img src="./images/ecosystem/hed_advan1.png" alt="에코시스템">
+                        <img src="/htdocs/images/ecosystem/hed_advan1.png" alt="에코시스템">
                     </div>
                     <span>헬스케어 에코시스템 구축</span>
                     <p>
@@ -71,7 +67,7 @@
                 </li>
                 <li>
                     <div class="icon-wrap">
-                        <img src="./images/ecosystem/hed_advan2.png" alt="솔루션">
+                        <img src="/htdocs/images/ecosystem/hed_advan2.png" alt="솔루션">
                     </div>
                     <span>헬스케어 솔루션 디자인</span>
                     <p>
@@ -80,7 +76,7 @@
                 </li>
                 <li>
                     <div class="icon-wrap">
-                        <img src="./images/ecosystem/hed_advan3.png" alt="파트너쉽">
+                        <img src="/htdocs/images/ecosystem/hed_advan3.png" alt="파트너쉽">
                     </div>
                     <span>헬스케어 파트너쉽 구축</span>
                     <p>
@@ -90,9 +86,3 @@
             </ul>
         </div>
     </section>
-    
-    <?php
-        include('inc/footer.php');
-    ?>
-</body>
-</html>

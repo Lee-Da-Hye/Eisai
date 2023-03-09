@@ -1,7 +1,4 @@
-<?php
-    $title = '한국에자이';
-    include_once('inc/header.php');
-?>
+
     <section class="section01">
         <div class="titleImg ">
             <div class="title-contents layout-marginAuto">
@@ -12,7 +9,7 @@
     <section class="section02 fadeIn">
         <div class="location">
             <ul class="location-contents">
-                <li><a href="./index.html"><img src="./images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>기업사회혁신</li>
                 <li>hhc Activity(환자공감활동)</li>
             </ul>
@@ -60,7 +57,7 @@
                         <li>
                             <a href="#"></a>
                             <div class="video-subImg">
-                                <img src="./images/innovation/o_1e6vaaerv1j7q17i1b2vjv0m6qa.jpg" alt="">
+                                <img src="/htdocs/images/innovation/o_1e6vaaerv1j7q17i1b2vjv0m6qa.jpg" alt="첫번째 영상 사진">
                             </div>
                             <div class="video-txt">
                                 <strong>[2019 CSR 필름페스티벌] 한국에자이의 암경험자<br> 공감워크숍 - 한국에자이</strong>
@@ -70,7 +67,7 @@
                         <li>
                             <a href="#"></a>
                             <div class="video-subImg">
-                                <img src="./images/innovation/o_1e6va5m1adls12mlgjhmcv1v9ja.jpg" alt="">
+                                <img src="/htdocs/images/innovation/o_1e6va5m1adls12mlgjhmcv1v9ja.jpg" alt="두번째 영상 사진">
                             </div>
                             <div class="video-txt">
                                 <strong>[2019 CSR 필름페스티벌] 한국에자이의 인지장애 어르신 <br>공감워크숍 - 한국에자이</strong>
@@ -89,9 +86,3 @@
             </div>
         </div>
     </section>
-    
-    <?php
-        include('inc/footer.php');
-    ?>
-</body>
-</html>

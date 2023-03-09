@@ -1,11 +1,8 @@
-<?php
-    $title = '한국에자이';
-    include_once('inc/header.php');
-?>
+
     <section class="section01 ">
         <div class="titleImg ">
             <div class="title-contents layout-marginAuto">
-                <p><img src="./images/hhc/txt_hhc3.png" alt="hhc-text"></p>
+                <p><img src="/htdocs/images/hhc/txt_hhc3.png" alt="hhc-text"></p>
                 <h2 class="humanCare">human health care</h2>
             </div>
         </div>
@@ -13,14 +10,14 @@
     <section class="section02 layout-marginAuto">
         <div class="location">
             <ul class="location-contents fadeIn">
-                <li><a href="/?sub=index"><img src="./images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>hhc</li>
                 <li>what is hhc?</li>
             </ul>
         </div>
         <div class="hhc fadeIn">
             <h2>what is</h2>
-            <h3><img src="./images/hhc/txt_hhc2.png" alt="hhc-text"></h3>
+            <h3><img src="/htdocs/images/hhc/txt_hhc2.png" alt="hhc-text"></h3>
             <p>?</p>
             <p></p>
         </div>
@@ -50,7 +47,7 @@
                         <iframe src="https://player.vimeo.com/video/695924840?h=986da0efb7" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
 					<!-- <div id="player"></div> -->
-				    <div class="cover aniBox type_cv topbot" style="background-image: url(/images/hhc_video_thumb/list2.png)">
+				    <div class="cover aniBox type_cv topbot" style="background-image: url(/htdocs/images/hhc_video_thumb/list2.png)">
                     </div>
                 </div>
             </div>
@@ -61,7 +58,7 @@
                     </div>
 
 					<!-- <div id="player"></div> -->
-					<div class="cover aniBox type_cv topbot" style="background-image: url(/images/hhc_video_thumb/list.png)">
+					<div class="cover aniBox type_cv topbot" style="background-image: url(/htdocs/images/hhc_video_thumb/list.png)">
                     </div>
                 </div>
             </div>
@@ -78,7 +75,7 @@
             <p>Our Journey with Patients</p>
             <p>Recent 
                 <span>
-                    <img src="./images/hhc/txt_hhc3.png" alt="hhc-text">
+                    <img src="/htdocs/images/hhc/txt_hhc3.png" alt="hhc-text">
                 </span>
                  Activities
             </p>
@@ -108,12 +105,6 @@
         </div>
         
         <div class="activ">
-            <p><a href="./innovation.html">hhc Activity 바로가기</a></p>
+            <p><a href="/?sub=innovation">hhc Activity 바로가기</a></p>
         </div>
     </section>
-        
-    <?php
-        include('inc/footer.php');
-    ?>
-</body>
-</html>

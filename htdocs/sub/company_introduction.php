@@ -1,7 +1,3 @@
-<?php
-    $title = '한국에자이';
-    include_once('inc/header.php');
-?>
     <section class="section01">
         <div class="titleImg">
             <div class="title-contents layout-marginAuto">
@@ -12,7 +8,7 @@
     <section class="section02 layout-marginAuto">
         <div class="location">
             <ul class="location-contents fadeIn">
-                <li><a href="./index.html"><img src="./images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>회사소개</li>
                 <li>Message from Top Management</li>
             </ul>
@@ -24,7 +20,7 @@
         <div class="company-content layout-marginAuto">
             <ul>
                 <li class="item1">
-                    <img src="./images/company_introduction/img_ceo.jpg" alt="ceo">
+                    <img src="/htdocs/images/company_introduction/img_ceo.jpg" alt="ceo">
                     <div class="ceo-name">
                         <p>한국에자이대표이사</p>
                         <p>고홍병</p>
@@ -32,7 +28,7 @@
                 </li>
                 <li class="item2">
                     <p>CEO Talk</p>
-                    <img src="./images/company_introduction/img_mtm.png" alt="소개">
+                    <img src="/htdocs/images/company_introduction/img_mtm.png" alt="소개">
                 </li>
                 <li class="item3">
                     한국에자이는 글로벌 제약회사 Eisai Co., Ltd.의 한국법인으로 지난 1997년 국내 진출 이후 우수전문 의약품을 소개하면서 환자들
@@ -58,9 +54,3 @@
         
         
     </section>
-    
-    <?php
-        include('inc/footer.php');
-    ?>
-</body>
-</html>

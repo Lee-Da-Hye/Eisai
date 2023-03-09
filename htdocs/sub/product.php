@@ -1,7 +1,4 @@
-<?php
-    $title = '한국에자이';
-    include_once('inc/header.php');
-?>
+
     <section class="section01">
         <div class="titleImg ">
             <div class="title-contents layout-marginAuto">
@@ -12,7 +9,7 @@
     <section class="section02 layout-marginAuto fadeIn">
         <div class="location">
             <ul class="location-contents">
-                <li><a href="./index.html"><img src="./images/common/icon_loc_home.png" alt="home"></a></li>
+                <li><a href="/"><img src="/htdocs/images/common/icon_loc_home.png" alt="home"></a></li>
                 <li>제품</li>
                 <li>한국에자이 제품</li>
             </ul>
@@ -105,9 +102,3 @@
             </div>
         </div>
     </section>
-    
-    <?php
-        include('inc/footer.php');
-    ?>
-</body>
-</html>
