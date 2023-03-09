@@ -27,7 +27,7 @@
 </head>
 <body>
 <!-- 상단 영역 -->
-<header id="navBar">
+<header>
 <?php
     include('inc/header.php');
     ?>
