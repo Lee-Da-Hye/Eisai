@@ -1,11 +1,9 @@
 
-    <main>
-        <div class="main">
             <section class="section01" id="section01">
                 <div  class="slide slide_wrap">
                     <div class="slide_item item1">
                         <div class="content-inner ">
-                            <img src="./images/main/mv1.jpg" alt="메인이미지첫번째">
+                            <img src="/htdocs/images/main/mv1.jpg" alt="메인이미지첫번째">
                             <div class="content">
                                 <h1>We make Medicines</h1>
                                 <p>한국에자이는 우리 모두의 건강한 삶을 위해 우수의약품 개발과 보급에<br> 최선을 다하고 있습니다.</p>
@@ -14,7 +12,7 @@
                     </div>
                     <div class="slide_item item2">
                         <div class="content-inner">
-                            <img src="./images/main/mv2.jpg" alt="메인이미지두번째">
+                            <img src="/htdocs/images/main/mv2.jpg" alt="메인이미지두번째">
                             <div class="content">
                                 <h1>We make Solutions</h1>
                                 <p>한국에자이는 우리가 안심하고 살 수 있는 사회를 위해 다양한 헬스케어<br> 솔루션을 함께 만들어갑니다.</p>
@@ -32,7 +30,7 @@
                         <p>Eisai는 전문의약품에서 일반의약품에 이르기까지 끊임없는 연구개발을 통해 <br>인간에게 희망을 심어 주는 좋은약 만들기에 앞장서고 있습니다.</p>
                         <p><a href="./product.html">제품소개 바로가기</a></p>
                         <div class="sec02-img">
-                            <img src="./images/main/mc2_img.png" alt="제품이미지">
+                            <img src="/htdocs/images/main/mc2_img.png" alt="제품이미지">
                         </div>
                     </div>
                 </div>
@@ -93,8 +91,6 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </main>
 
     <aside>
         <div class="fixed top animate__animated">
@@ -108,11 +104,8 @@
         </div>
     </aside>
 
-    <script src="./script/index.js"></script>
-    <script src="./script/slide.js"></script>
+    <script type="text/javascript" src="/src/main.js?<?=time()?>"></script>
     
     <?php
     include('inc/footer.php');
     ?>
-</body>
-</html>

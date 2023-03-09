@@ -54,3 +54,5 @@
 <script src="./script/jquery-ui.js"></script>
 <script src="./script/common.js"></script>
 <script src="./script/fadeIn.js"></script>
+</body>
+</html>
