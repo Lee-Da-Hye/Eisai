@@ -11,7 +11,7 @@
 <!-- /Global CSS -->
 <?php if (isset($_GET['sub'])) {?>
 <link href="./src/sub.css?<?=time()?>" type="text/css" rel="stylesheet" />
-<link href="./src/<?=$_GET['sub']?>.css?<?=time()?>" media="screen and (max-width: 900px)" type="text/css" rel="stylesheet" />
+<link href="./src/<?=$_GET['sub']?>.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <?php } else { ?>
 <link href="./src/main.css?<?=time()?>" type="text/css" rel="stylesheet" />
 <?php }?>
@@ -20,8 +20,10 @@
 <link rel="apple-touch-icon" sizes="57x57" href="./images/common/apple-icon-57x57.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/ui/jquery.min.js"></script>
 <script type="text/javascript" src="/src/common.js?<?=time()?>"></script>
+<script type="text/javascript" src="/src/fadeIn.js?<?=time()?>"></script>
 </head>
 <body>
 <!-- 상단 영역 -->
@@ -48,10 +50,5 @@
 <?php include "./htdocs/inc/footer.php" ?>
 </footer>
 <!--/하단 영역-->
-
-<script src="./script/jquery-3.6.1.js"></script>
-<script src="./script/jquery-ui.js"></script>
-<script src="./script/common.js"></script>
-<script src="./script/fadeIn.js"></script>
 </body>
 </html>
