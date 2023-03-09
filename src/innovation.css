@@ -163,7 +163,7 @@
 }
 
 .prev{
-    background-image: url(../images/innovation/pager_prev.png);
+    background-image: url(/htdocs/images/innovation/pager_prev.png);
 }
 
 .prev:hover,
@@ -172,7 +172,7 @@
 }
 
 .prev:hover{
-    background-image: url(../images/innovation/pager_prev_ov.png);
+    background-image: url(/htdocs/images/innovation/pager_prev_ov.png);
 }
 
 .current_page{
@@ -185,11 +185,11 @@
 }
 
 .next{
-    background-image: url(../images/innovation/pager_next.png);
+    background-image: url(/htdocs/images/innovation/pager_next.png);
 }
 
 .next:hover{
-    background-image: url(../images/innovation/pager_next_ov.png);
+    background-image: url(/htdocs/images/innovation/pager_next_ov.png);
 }
 
 @media screen and (max-width:1260px) {
