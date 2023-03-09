@@ -47,7 +47,7 @@
                         <iframe src="https://player.vimeo.com/video/695924840?h=986da0efb7" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
 					<!-- <div id="player"></div> -->
-				    <div class="cover aniBox type_cv topbot" style="background-image: url(/htdocs/images/hhc_video_thumb/list2.png)">
+				    <div class="cover aniBox type_cv topbot">
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </div>
 
 					<!-- <div id="player"></div> -->
-					<div class="cover aniBox type_cv topbot" style="background-image: url(/htdocs/images/hhc_video_thumb/list.png)">
+					<div class="cover aniBox type_cv topbot">
                     </div>
                 </div>
             </div>
