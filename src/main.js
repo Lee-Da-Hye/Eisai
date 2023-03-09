@@ -89,6 +89,7 @@ var cachedWidth = $(window).width();
             console.log(bw);
         });
         function react() {
+          bw = $("body").width();
           if (bw >= 801) { $(window).on('wheel');}
           else { $(window).off('wheel');}
           }
