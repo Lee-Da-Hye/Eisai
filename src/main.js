@@ -87,11 +87,13 @@ var cachedWidth = $(window).width();
 
         function react() {
           if (bw >= 801) {
-            console.log('wheel 실행 중')
+            
              $(window).on('wheel');
+             console.log('wheel 실행 중')
             } else {
-              console.log('wheel 없어짐')
+              
                $(window).off('wheel');
+               console.log('wheel 없어짐')
               }
           }
         react();
