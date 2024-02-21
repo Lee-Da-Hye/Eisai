@@ -40,6 +40,7 @@ function showNavi() {
 
 //아코디언
 
+
 $('.ham-title').click(function(){
   let value = $(this).hasClass('open');
   //클래스가 있다 (열려있다 => 닫혀야한다)
@@ -54,7 +55,8 @@ $('.ham-title').click(function(){
     $(this).parent().siblings().children('ul.submenu').slideUp();
     $(this).next().slideDown();
   }
-})//on
+})
+
 
 
   //const acTitles = document.querySelectorAll('.ham-title');
