@@ -78,5 +78,5 @@ $('.ham-title').click(function(){
               firstI.classList.remove('bx-chevron-up');
           }  
       })
-  })
-});*/
+  })*/
+});
